@@ -1,7 +1,7 @@
 https://github.com/cakephp/app/blob/master/README.md
 
 # clone the repo
-git clone https://github.com/Vlogbox/app
+git clone git@github.com:Vlogbox/app.git
 cd app
 
 # install the plugins
