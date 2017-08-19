@@ -1,0 +1,528 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.padding-right {
+    padding-right: 0;
+}
+.padding-left {
+    padding-left: 0;
+}
+.stylish-input-group .input-group-addon {
+    background: white !important;
+}
+.stylish-input-group .form-control {
+    border-right: 0;
+    box-shadow: 0 0 0;
+    border-color: #ccc;
+}
+.stylish-input-group button {
+    border: 0;
+    background: transparent;
+}
+#imaginary_container {
+    width: 500px;
+    margin-top: 10px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #fff;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.navbar-default {
+    background-color: #262542;
+    border-color: transparent;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+}
+.carousel-indicators {
+    display: none;
+}
+.input-group .form-control {
+    z-index: 0;
+}
+.myCarousel {
+    position: relative;
+}
+.home-middle-category .carousel-inner img {
+    width: 100%;
+}
+.video-play-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 37%;
+    z-index: 999;
+    text-align: center;
+}
+/** vlog **/
+
+.bg-cat-pop {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0px #ddd;
+    border-radius: 4px;
+}
+.top-video-category img {
+    width: 100%;
+    border-radius: 4px;
+    height: 185px;
+}
+.strip-bottom {
+    padding: 10px;
+}
+.pop-cat-name {
+    font-size: 14px;
+    color: #1e0d3e;
+    margin-bottom: 11px;
+    margin-top: 6px;
+}
+.bg-cat-pop {
+    position: relative;
+}
+.video-play-btn-cat {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    text-align: center;
+    z-index: 999;
+}
+.video-play-btn-cat img {
+    width: 50px;
+}
+.orange-text {
+    font-size: 11px;
+}
+.view {
+    font-size: 13px;
+}
+.video-duration {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #262542;
+    padding: 10px;
+    color: #fff;
+}
+.top-video-category {
+    position: relative;
+}
+.category-box {
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 2px solid #262542;
+  border-radius: 4px;
+}
+
+.category-box-img img {
+    margin: 0 auto;
+    width: 100px;
+    margin: 10px auto;
+}
+.category-name {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:#262542;
+}
+.heading {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.fitness-icon {
+    padding: 10px 0;
+}
+.footer li {
+    line-height: 27px;
+}
+.vlog-logo-footer {
+    font-size: 30px !important;
+    font-weight: 600;
+}
+.footer p,
+.footer li {
+    font-weight: 200;
+}
+.signup-bottom {
+    background: url('../../img/home/pattern-img-bottom.png') repeat;
+    padding: 67px 0;
+    color: #fff;
+    background-size: cover;
+}
+
+.btn-signup,
+.btn-signup:hover,
+.btn-signup:active,
+.btn-signup:focus {
+    color: #f7656a !important;
+    background-color: #fefefd;
+    font-size: 24px;
+    padding: 8px 30px;
+    margin-top: 12px;
+}
+.signup-bottom p {
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+.carousel-caption-custom-left {
+    position: absolute;
+    top: 62%;
+}
+.caption-right {
+    position: absolute;
+    bottom: 24px;
+    right: 107px;
+}
+.carousel-caption-custom-left h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: normal;
+}
+.carousel-caption-custom-left .slogan {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+}
+.signup-top-btn {
+    background-color: #f7656a;
+    color: #fff;
+    font-size: 20px;
+    padding: 11px 30px;
+}
+.signup-top-btn:hover,
+.signup-top-btn:focus,
+.signup-top-btn:active {
+    background-color: #EE383E;
+    color: #fff;
+}
+.view-all-category a {
+    color: #5ba157;
+    font-size: 20px;
+}
+.view-all-category {
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+.footer li a {
+    color: #fff;
+}
+.navbar-brand:hover {
+    color: #fff !important;
+}
+
+.category-scroll .pager {
+  padding-left: 0;
+  margin: 20px 0;
+  text-align: right;
+  list-style: none;
+}
+
+.category-scroll .pager li>a, 
+.category-scroll .pager li>span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #262542;
+  border-radius: 4px;
+}
+
+
+
+
+/*Video page css start here comments*/
+
+
+
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.panel-white {
+  border: 1px solid #dddddd;
+}
+.panel-white  .panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.panel-white  .panel-footer {
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.post .post-heading {
+    height: auto;
+    padding: 20px 15px;
+    overflow: hidden;
+}
+.post .post-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+.post .post-heading .meta .title {
+  margin-bottom: 0;
+}
+.post .post-heading .meta .title a {
+  color: black;
+}
+.post .post-heading .meta .title a:hover {
+  color: #aaaaaa;
+}
+.post .post-heading .meta .time {
+  margin-top: 8px;
+  color: #999;
+}
+.post .post-image .image {
+  width: 100%;
+  height: auto;
+}
+.post-description{
+    padding-top: 10px;
+}
+.action-button a {
+    margin-right: 15px;
+    float: right;
+    color: #757575;
+    font-size: 14px;
+}
+.action-button a:hover {
+    color:#23253d;
+    text-decoration: none;
+
+}
+.action-button a i{
+    font-size: 18px;
+
+}
+.post .post-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+}
+.post .post-footer .input-group-addon a {
+  color: #454545;
+}
+.post .post-footer .comments-list {
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.post .post-footer .comments-list .comment {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+.post .post-footer .comments-list .comment .avatar {
+  width: 35px;
+  height: 35px;
+  border-radius:50%;
+}
+.post .post-footer .comments-list .comment .comment-heading {
+  display: block;
+  width: 100%;
+}
+.post .post-footer .comments-list .comment .comment-heading .user {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  margin-top: 0;
+  margin-right: 10px;
+}
+.post .post-footer .comments-list .comment .comment-heading .time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 0;
+  display: inline;
+}
+.post .post-footer .comments-list .comment .comment-body {
+  margin-left: 50px;
+}
+.post .post-footer .comments-list .comment > .comments-list {
+  margin-left: 50px;
+}
+
+/*Video page css end here comments*/
+
+
+
+/** signup **/
+
+/** login css  **/
+.login-margin {
+margin-left: 20%;
+}
+body {
+background-image: url(../../img/home/vertical-pattern.png), url(../../img/home/login-pattern.png);
+background-position: center -70px, center bottom;
+background-repeat: no-repeat, no-repeat;
+background-size: 100%;
+}
+.login-wraper {
+/*background: #fff none repeat scroll 0 0;
+border: 1px solid #e8e8e8;
+box-shadow: -1px 11px 39px #e8e8e8;
+margin-bottom: 100px;
+margin-top: 80px;*/
+padding: 0 47px;
+}
+/*.login-wraper .form-group {
+margin-bottom: 0
+}*/
+.login-wraper h3 {
+color: #7c7c7c;
+font-size: 30px;
+margin-top: 0;
+}
+.login-wraper p {
+font-size: 15px;
+color: #7c7c7c;
+}
+.red-text {
+color: #ed2e2c;
+}
+.login-wraper .img-responsive {
+width: 100%;
+}
+.btn-google {
+margin-bottom: 15px;
+}
+.col-sm-12.text-center.or-text {
+font-size: 16px;
+margin-bottom: 15px;
+color: #7c7c7c;
+/*margin-top: 30px;*/
+}
+.forget-text a {
+color: #384e8f;
+font-weight: 200;
+font-size: 14px;
+font-family: "Open Sans", sans-serif;
+}
+.remember-text {
+color: #807c7c;
+font-size: 14px;
+font-family: "Open Sans", sans-serif;
+font-weight: 200;
+margin-top: 15px;
+}
+.forget-text {
+margin-top: 15px;
+}
+.signup-text-chk {
+color: #807c7c;
+font-size: 13px;
+font-family: "Open Sans", sans-serif;
+font-weight: 200;
+margin-bottom: 10px;
+}
+.btn.btn-white.btn-block {
+background: #fff none repeat scroll 0 0;
+border: 2px solid #afafaf;
+color: #807c7c;
+font-size: 25px;
+font-weight: normal;
+line-height: 37px;
+}
+.login-bottom-text {
+font-size: 14px;
+color: #807c7c;
+font-family: "Open Sans", sans-serif;
+margin-top: 15px;
+}
+.forgot-btn {
+margin-top: 20px;
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active {
+background-color: #807c7c !important;
+color: #fff !important;
+border: 2px solid #807c7c !important;
+outline: none !important;
+}
+
+.input-lg {
+  font-size: 15px;
+}
+
+.signup .modal-body {
+  padding-bottom: 35px;
+}
+
+.signup .modal-header {
+padding: 15px;
+border-bottom:transparent;
+padding-bottom: 0;
+}
+
+.signup h3 {
+color: #7c7c7c;
+font-size: 28px;
+margin-top: 20px;
+margin-bottom: 0;
+}
+
+.login-wraper .img-responsive {
+margin: 0 auto;
+}
+
+.forget-pass {
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+
+.carousel-caption-custom-left{
+  display: none;
+}
+
+
+
+}
+

@@ -1,0 +1,150 @@
+2017-08-19 18:45:41 Error: [PDOException] SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'id' in /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `c...')
+#1 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `c...')
+#2 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /home/ogkabongo/public_html/volg/config/Migrations/20170819184514_CreateCategories.php(29): Migrations\Table->create()
+#6 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateCategories->change()
+#7 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateCategories), 'up')
+#8 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateCategories), 'up')
+#9 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170819184514)
+#10 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/ogkabongo/public_html/volg/vendor/symfony/console/Command/Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(874): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(228): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(130): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/Shell.php(506): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#20 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#21 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#22 /home/ogkabongo/public_html/volg/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#23 {main}
+
+
+2017-08-19 18:55:36 Error: [PDOException] SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'id' in /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `c...')
+#1 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `c...')
+#2 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /home/ogkabongo/public_html/volg/config/Migrations/20170819184514_CreateCategories.php(29): Migrations\Table->create()
+#6 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateCategories->change()
+#7 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateCategories), 'up')
+#8 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateCategories), 'up')
+#9 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170819185524)
+#10 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/ogkabongo/public_html/volg/vendor/symfony/console/Command/Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(874): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(228): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(130): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/Shell.php(506): Migrations\Shell\MigrationsShell->main('migrations', 'migr')
+#18 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#20 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#21 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#22 /home/ogkabongo/public_html/volg/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#23 {main}
+
+
+2017-08-19 18:55:42 Error: [PDOException] SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'id' in /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `c...')
+#1 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `c...')
+#2 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /home/ogkabongo/public_html/volg/config/Migrations/20170819184514_CreateCategories.php(29): Migrations\Table->create()
+#6 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateCategories->change()
+#7 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateCategories), 'up')
+#8 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateCategories), 'up')
+#9 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170819185524)
+#10 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/ogkabongo/public_html/volg/vendor/symfony/console/Command/Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(874): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(228): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(130): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/Shell.php(506): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#20 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#21 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#22 /home/ogkabongo/public_html/volg/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#23 {main}
+
+
+2017-08-19 18:55:49 Error: [PDOException] SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'id' in /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `c...')
+#1 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `c...')
+#2 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /home/ogkabongo/public_html/volg/config/Migrations/20170819184514_CreateCategories.php(29): Migrations\Table->create()
+#6 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateCategories->change()
+#7 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateCategories), 'up')
+#8 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateCategories), 'up')
+#9 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170819185524)
+#10 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/ogkabongo/public_html/volg/vendor/symfony/console/Command/Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(874): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(228): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(130): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/Shell.php(506): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#20 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#21 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#22 /home/ogkabongo/public_html/volg/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#23 {main}
+
+
+2017-08-19 19:22:22 Error: [Cake\Core\Exception\MissingPluginException] Plugin Josegonzalez/Upload could not be found. in /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Core/Plugin.php on line 149
+Exception Attributes: array (
+  'plugin' => 'Josegonzalez/Upload',
+)
+Stack Trace:
+#0 /home/ogkabongo/public_html/volg/config/bootstrap.php(225): Cake\Core\Plugin::load('Josegonzalez/Up...', Array)
+#1 /home/ogkabongo/public_html/volg/bin/cake.php(32): include('/home/ogkabongo...')
+#2 {main}
+
+
+2017-08-19 19:50:49 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'videos' already exists in /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `v...')
+#1 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `v...')
+#2 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /home/ogkabongo/public_html/volg/config/Migrations/20170819194957_CreateVideos.php(44): Migrations\Table->create()
+#6 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateVideos->change()
+#7 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateVideos), 'up')
+#8 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateVideos), 'up')
+#9 /home/ogkabongo/public_html/volg/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170819195023)
+#10 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/ogkabongo/public_html/volg/vendor/symfony/console/Command/Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(874): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(228): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ogkabongo/public_html/volg/vendor/symfony/console/Application.php(130): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/Shell.php(506): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /home/ogkabongo/public_html/volg/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#20 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#21 /home/ogkabongo/public_html/volg/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#22 /home/ogkabongo/public_html/volg/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#23 {main}
+
+

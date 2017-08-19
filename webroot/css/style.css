@@ -1,0 +1,139 @@
+/* Base Css
+-------------------------------------------------- */
+
+
+body {
+
+    background-repeat: repeat;
+    font-family: 'Overpass', sans-serif;
+}
+
+.padding-left {
+    padding-left: 0;
+}
+
+.padding-right {
+    padding-right: 0;
+}
+
+
+/* Top Nav Settings
+-------------------------------------------------- */
+
+
+.logo-mini > img {
+    margin-top: 25px;
+    width: 44px;
+}
+
+
+.sidebar-menu .fa {
+    font-size: 22px;
+    padding-right: 33px;
+    color: #f7656a;
+}
+
+
+.glyphicon.glyphicon-menu-hamburger {
+    color: #fff;
+}
+
+
+
+.nav-custom {
+    height: 72px;
+}
+
+.main-header .sidebar-toggle {
+
+  padding-top: 21px !important;
+}
+
+
+
+article {
+    border-top: 2px solid #ccc;
+    padding-top: 30px;
+}
+
+
+
+.btn-orange, 
+.btn-orange:hover,
+ .btn-orange:focus {
+   background: #f7656a;
+    color: #fff;
+    font-size: 24px;
+    height: 48px;
+    line-height: 49px;
+    padding: 0 20px;
+    border: #f7656a;
+}
+
+.video-thumb {
+    width: 65px;
+}
+
+ .manage-video h2 {
+    margin-top: 9px;
+    margin-bottom: 0;
+ }
+.sumbit-btn {
+    margin-top: 46px;
+}
+
+.any-problem {
+    font-size: 15px;
+}
+
+.btn-defaults,
+.btn-defaults:hover,
+.btn-defaults:focus{
+    background-color: #35b5d1;
+    border-color: #35b5d1;
+    color: #fff;
+    font-size: 16px;
+}
+
+.content-header {
+    padding:15px 0;
+}
+    
+    
+   
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .main-header {
+        background:#fff;
+    }
+
+    .main-sidebar,
+    .left-side {
+        width: 230px !important;
+    }
+
+    .main-sidebar, .left-side {
+     padding-top: 161px;
+  }
+
+  .nav-custom {
+    height: 83px !important;
+  }
+
+.logo-lg {
+  color:#333;
+
+}
+.main-sidebar, 
+.left-side {
+padding-top: 167px!important;
+}
+
+.content-header {
+    margin-top: 58px !important;
+}
+   
+
+}
+

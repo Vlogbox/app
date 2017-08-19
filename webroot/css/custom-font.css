@@ -1,0 +1,60 @@
+
+.faa::before {
+	content: '';
+	display: inline-block;
+	background: url("../img/sprite.png") no-repeat 0 0;
+	padding:  32px 24px 3px;
+	vertical-align: middle;
+	/*padding-bottom: 1px;*/
+}
+
+.faa.fa-unchecked::before {
+  content: '';
+  background-position: -60px 0px;
+}
+
+.faa.fa-checked::before {
+  content: '';
+  background-position: 0px 0;
+}
+
+
+.works-in-ie-login label {
+	padding-left: 0;
+	font-weight: normal;
+}
+
+
+/** radio custom Css **/
+
+.fa-radio::before {
+	content: '';
+	display: inline-block;
+	background: url("../img/radio-sprite.png") no-repeat 0 0;
+	padding: 20px;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.fa-radio.fa-unchecked::before {
+  content: '';
+  background-position: 7px 3px;
+}
+
+.fa-radio.fa-checked::before {
+  content: '';
+  background-position: -39px 3px;
+}
+
+.works-in-ie-signup {
+    margin-bottom: 10px;
+    margin-left: -4px;
+    margin-top: 10px;
+}
+.text-checkbox {
+    color: #4b4b4b;
+    font-weight: 300;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
